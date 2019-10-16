@@ -1,0 +1,18 @@
+h1#titulo { color: teal; }
+p strong { color: red; }
+p span.destacado { color: orange; }
+h2#subtitulo { color: blue; }
+p a { color: red; }
+p a em { color: blue; }
+span.especial { color: purple; }
+table { border: 1px solid black; border-collapse: collapse; }
+td, th { border: 1px solid black; padding: 5px; }
+caption { color: blue; }
+thead { color: orange; }
+tfoot th { color: red; }
+tbody th.especial { color: orange; }
+tbody td { color: green; }
+tbody td strong { color: orange; }
+#adicional { color: olive; }
+#adicional p span#especial { color: fuchsia; }
+#adicional p a { color: green; }
