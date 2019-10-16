@@ -5,7 +5,7 @@ h2#subtitulo { color: blue; }
 p a { color: red; }
 p a em { color: blue; }
 span.especial { color: purple; }
-table { border: 1px solid black; border-collapse: collapse; }
+table { border-collapse: collapse; }
 td, th { border: 1px solid black; padding: 5px; }
 caption { color: blue; }
 thead { color: orange; }
