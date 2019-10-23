@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prueba Formulario</title>
+    <style>
+        input[type=text] {
+            border: none;
+            border-bottom: 1px solid #000;
+        }
+        input[type=password] {
+            border: none;
+            border-bottom: 1px solid #000;
+        }
+        input[type=email] {
+            border: none;
+            border-bottom: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formspree.io/salsamerengueymambo@gmail.com" method="POST">
+        <fieldset>
+            <legend>Datos de Usuario</legend>
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario" required/>
+            <br />
+            <label for="mail">e-mail</label>
+            <input type="email" name="mail" id="mail" required/>
+            <br />
+            <label for="pwd">Clave</label>
+            <input type="password" name="pwd" id="pwd" required/>
+        </fieldset>
+        <fieldset>
+            <legend>Encuesta</legend>
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo" required>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+                <option value="O">Ninguno de los anteriores</option>
+            </select>
+            <br />
+            <label for="fuma">Fuma?</label>
+                <label for="fumasi">Si</label>
+                <input type="radio" name="fuma" id="fumasi" />
+                <label for="fumano">No</label>
+                <input type="radio" name="fuma" id="fumano" />
+            <br />
+            <fieldset>
+                <legend>Hace alguno de los siguientes Deportes?</legend>
+                <label for="natacion">Nataci&oacute;n
+                    <input type="checkbox" name="natacion" id="natacion" />
+                </label>
+                <label for="running">Running
+                    <input type="checkbox" name="running" id="running" />
+                </label>
+                <br />
+                <label for="futbol">F&uacute;tbol
+                    <input type="checkbox" name="futbol" id="futbol" />
+                </label>
+                <label for="roller">Rollerskate
+                    <input type="checkbox" name="roller" id="roller" />
+                </label>
+                <br />
+                <label for="footing">Footing
+                    <input type="checkbox" name="footing" id="footing" />
+                </label>
+                <label for="rugby">Rugby
+                    <input type="checkbox" name="rugby" id="rugby" />
+                </label>
+                <br />
+            </fieldset>
+            <br />
+            <label for="vacaciones">Fecha &uacute;ltimas Vacaciones</label>
+            <input type="date" name="vacaciones" id="vacaciones" />
+            <br/ >
+            <label for="conforme">Cu&aacute;n conforme estuvo con su operador tur&iacute;stico</label>
+            <label for="conforme">Poco</label>
+            <input type="range" name="conforme" id="conforme" min="1" max="10" step="1"/>
+            <label for="conforme">Mucho</label>
+            <br />
+            <label for="horavuelo">Hora preferida de Vuelo</label>
+            <input type="time" name="horavuelo" id="horavuelo" />
+            <br />
+            <label for="opinion">Opini&oacute;n</label>
+            <textarea name="opinion" id="opinion" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>
