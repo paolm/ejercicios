@@ -1,0 +1,32 @@
+h1::before {
+    content:"Esto es ";
+    color: darkblue;
+}
+h2::after {
+    content:" un after ";
+    color: red;
+}
+input {
+    background-color: black;
+}
+::-webkit-input-placeholder {
+    color: orange;
+    text-transform: capitalize;
+}
+
+p:not(.nota)::first-letter {
+    font-size: 200%;
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+.nota {
+    counter-increment: note-counter;
+    display: list-item;
+}
+p.nota {
+    margin-left: 10px;
+}
+p.nota::marker {
+    content: "Note "counter(note-counter) ":";
+}

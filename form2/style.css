@@ -1,0 +1,115 @@
+body {
+    background-color: salmon;
+    font-size: 18px;
+}
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    /*font-size: 16px;*/
+}
+.container>span {
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+fieldset {
+    text-align: left;
+}
+fieldset legend {
+    color: yellow;
+    font-weight: bold;
+}
+dfn {
+    float: left;
+}
+fieldset>label>div {
+    margin-left: 20px;
+}
+fieldset label span {
+    display: block;
+}
+label {
+    height: 40px;
+    display: block;
+}
+label[for=email] {
+    padding-top: 25px;
+}
+label[for=anio] {
+    padding-top: 25px;
+}
+input[type=text]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: salmon;
+    width: 100%;
+    border-bottom: lightgray 2px solid;
+}
+label>div {
+    display: none;
+    float: left;
+}
+label[for=name]:hover div, label[for=email]:hover div, label[for=marcas]:hover div, label[for=anio]:hover div {
+    display: inline;
+}
+input[type=email]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: salmon;
+    width: 100%;
+    border-bottom: lightgray 2px solid;
+}
+input[type=number]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: salmon;
+    width: 100%;
+    border-bottom: lightgray 2px solid;
+}
+select {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: salmon;
+    width: 100%;
+    border-bottom: lightgray 2px solid;
+}
+input:focus:valid {
+    background-color: green;
+}
+input:focus:invalid {
+    background-color: red;
+}
+
+select#marcas :nth-child(odd) {
+    background-color: blanchedalmond;
+}
+select#marcas :nth-child(even) {
+    background-color: lightskyblue;
+}
+.botones {
+    text-align: center;
+}
+.botones input {
+    width: 47%;
+    height: 70px;
+    color: blue;
+    background-color: gray;
+    border: none;
+}
+.botones input:enabled:hover {
+    background-color: black
+}
+.dfn {
+    margin-top: 10px;
+    text-align: left;
+}
+.info {
+    display: none;
+}
