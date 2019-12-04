@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.item {
+
+    background-color: salmon;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: white;
+}
+
+.red {
+    background-color: orangered;
+    
+}
+.yellow {
+    background-color: yellow;
+}
+.fucsia {
+    background-color:fuchsia;
+}
+.sky {
+    background-color: dodgerblue;
+}
+.green {
+    background-color: lightgreen;
+}

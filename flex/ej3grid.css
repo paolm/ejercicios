@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: stretch;
+    grid-template-areas: 
+    'header header header header'
+    "left middle middle right"
+    "footer footer footer footer"
+    ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px auto 50px;
+}
+.item {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.red {
+    background-color: orangered;
+    grid-area: header;
+}
+.yellow {
+    background-color: yellow;
+    grid-area: left;
+    height: 100%;
+}
+.fucsia {
+    background-color:fuchsia;
+    grid-area: right;
+    height: 100%;
+}
+.sky {
+    background-color: dodgerblue;
+    grid-area: middle;
+}
+.green {
+    background-color: lightgreen;
+    grid-area: footer;
+}

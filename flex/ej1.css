@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item {
+    height: 200px;
+    flex-basis: 200px;
+    background-color: salmon;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+}
